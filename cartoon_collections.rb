@@ -10,8 +10,8 @@ end
 
 
 def list_dwarves(array)
-list_dwarves.each_with_index { |item, index|
-  hash[item] = index
+array.each_with_index { |item, index|
+  [item] = index
 }  
   # Use `each_with_index` to enumerate over the provided array
   #
