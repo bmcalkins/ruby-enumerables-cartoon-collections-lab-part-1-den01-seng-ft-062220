@@ -1,7 +1,8 @@
 def greet_characters(dwarves)
   dwarves = ["Dopey", "Grumpy", "Bashful"]
-  dwarves.each do |dwarves|
-   puts "Hello #{dwarves}!"
+  dwarves.each do |character|
+   puts "Hello #{character}!"
+  end
 end
   # Use `each` to enumerate over the provided array
   #
